@@ -13,7 +13,7 @@ submit.addEventListener('submit',
                 const box = document.createElement('div')
                 box.classList.add('box','box-100')  
                 box.innerHTML = i  
-                document.querySelector(' main > .my-container').append(box);
+                document.querySelector(' main > .my-container .row').append(box);
                 box.addEventListener('click',
                     function(){
                         box.classList.toggle('bkg-color')
@@ -32,7 +32,7 @@ submit.addEventListener('submit',
                 const box = document.createElement('div')
                 box.classList.add('box','box-81')  
                 box.innerHTML = i  
-                document.querySelector(' main > .my-container').append(box);
+                document.querySelector(' main > .my-container .row').append(box);
                 box.addEventListener('click',
                     function(){
                         box.classList.toggle('bkg-color')
@@ -50,7 +50,7 @@ submit.addEventListener('submit',
                 const box = document.createElement('div')
                 box.classList.add('box','box-49')  
                 box.innerHTML = i  
-                document.querySelector(' main > .my-container').append(box);
+                document.querySelector(' main > .my-container .row').append(box);
                 box.addEventListener('click',
                     function(){
                         box.classList.toggle('bkg-color')
