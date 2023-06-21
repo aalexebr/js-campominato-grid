@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.my-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}
+.box{
+    height: calc(100vw/10);
+    width: calc(100vw / 10);
+    background-color: lightcoral;
+    border: 5px solid lightgoldenrodyellow;
+}
