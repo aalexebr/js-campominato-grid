@@ -4,16 +4,25 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: lightblue;
+    padding: 40px 0;
+}
+
+
 .my-container{
-    max-width: 1200px;
+    width: 1200px;
     margin: auto;
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .box{
-    height: calc(100vw/10);
-    width: calc(100vw / 10);
+    height: 120px;
+    width: 120px;
     background-color: lightcoral;
     border: 5px solid lightgoldenrodyellow;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px ;
 }
