@@ -22,6 +22,7 @@ submit.addEventListener('submit',
                 );
                
             };
+            
     
         };
 
@@ -39,8 +40,8 @@ submit.addEventListener('submit',
                         // console.log(i)
                     }
                 );
-               
             }
+            
         };
 
         if(select == 'easy'){
@@ -78,6 +79,14 @@ submit.addEventListener('submit',
         //     );
            
         // }
+        
 
     }
+
+    
 );
+const reset = document.getElementById('reset')
+        reset.addEventListener('click',
+        function(){
+            document.querySelector('.row').innerHTML= ''
+        } )
